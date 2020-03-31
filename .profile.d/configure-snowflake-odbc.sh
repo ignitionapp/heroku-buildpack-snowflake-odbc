@@ -5,13 +5,13 @@ export ODBCSYSINI=${HOME}/.apt/usr/lib/snowflake/odbc/conf/
 mkdir -p /etc
 echo "
 [ODBC Data Sources]
-SnowflakeDSII = Snowflake
+${SNOWFLAKE_DSN} = Snowflake
 
-[SnowflakeDSII]
+[${SNOWFLAKE_DSN}]
 Server = ${SNOWFLAKE_SERVER}
 Warehouse = ${PI_WH}
 Driver=SnowflakeDSIIDriver
-Description = SnowflakeDSII
+Description = ${SNOWFLAKE_DSN}
 Locale = en-US
 Tracing = 0
 Role = READ_ONLY
