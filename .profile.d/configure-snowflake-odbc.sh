@@ -9,7 +9,7 @@ SnowflakeDSII = Snowflake
 
 [SnowflakeDSII]
 Server = ${SNOWFLAKE_SERVER}
-Warehouse = ${SNOWFLAKE_WAREHOUSE}
+Warehouse = ${PI_WH}
 Driver=SnowflakeDSIIDriver
 Description = SnowflakeDSII
 Locale = en-US
