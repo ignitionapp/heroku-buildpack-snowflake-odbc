@@ -9,11 +9,11 @@ it, with the following in the Aptfile:
 ```
 unix-odbc
 unixodbc-dev <-- required for ruby-odbc gem
-https://raw.githubusercontent.com/carwow/heroku-buildpack-snowflake-odbc/master/snowflake-odbc.deb
+https://raw.githubusercontent.com/ignitionapp/heroku-buildpack-snowflake-odbc/master/snowflake-odbc.deb
 ```
 
 Add buildpack
 
 ```
-heroku buildpacks:add https://github.com/TheScionGroup/heroku-buildpack-snowflake-odbc
+heroku buildpacks:add https://github.com/ignitionapp/heroku-buildpack-snowflake-odbc
 ```
